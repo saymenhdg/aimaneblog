@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.auth-links {
+    float: right;
+    margin-top: -30px;
+}
+
+.auth-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px 0;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;  /* Change to column layout */
+    align-items: center;     /* Center the posts horizontally */
+    justify-content: center;
+}
+
+.post {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;              /* Adjust the width to fit the page */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;      /* Center text inside each post */
+}
+
+.post-header {
+    margin-bottom: 15px;
+}
+
+.post-header h3 {
+    margin: 0;
+    color: #333;
+}
+
+.post-header p {
+    font-size: 14px;
+    color: #777;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #555;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
